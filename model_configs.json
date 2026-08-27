@@ -1,0 +1,146 @@
+{
+    "model_names": {
+        "safety_baseline0": {
+            "model_path": "meta-llama/Llama-3.1-8B-Instruct",
+            "gen_config": "llama_style"
+        },
+        "olmo3-instruct-7b": {
+            "model_path": "allenai/Olmo-3-7B-Instruct",
+            "gen_config": "olmo_style"
+        },
+        "olmo3-dpo-7b": {
+            "model_path": "allenai/Olmo-3-7B-Instruct-DPO",
+            "gen_config": "olmo_style"
+        },
+        "olmo3-sft-7b": {
+            "model_path": "allenai/Olmo-3-7B-Instruct-SFT",
+            "gen_config": "olmo_style"
+        },
+        "olmo3-instruct-32b": {
+            "model_path": "allenai/Olmo-3.1-32B-Instruct",
+            "gen_config": "olmo_style"
+        },
+        "olmo3-dpo-32b": {
+            "model_path": "allenai/Olmo-3.1-32B-Instruct-DPO",
+            "gen_config": "olmo_style"
+        },
+        "olmo3-sft-32b": {
+            "model_path": "allenai/Olmo-3.1-32B-Instruct-SFT",
+            "gen_config": "olmo_style"
+        },
+        "apertus8b": {
+            "model_path": "swiss-ai/Apertus-8B-Instruct-2509",
+            "gen_config": "apertus_style"
+        },
+        "apertus70b": {
+            "model_path": "swiss-ai/Apertus-70B-Instruct-2509",
+            "gen_config": "apertus_style"
+        },
+        "gemma3-270m": {
+            "model_path": "google/gemma-3-270m-it",
+            "gen_config": "gemma3_tiny_style"
+        },
+        "gemma3-12b": {
+            "model_path": "google/gemma-3-12b-it",
+            "gen_config": "gemma3_style"
+        },
+        "gemma3-27b": {
+            "model_path": "google/gemma-3-27b-it",
+            "gen_config": "gemma3_style"
+        },
+        "gemma2-2b": {
+            "model_path": "google/gemma-2-2b-it",
+            "gen_config": "general_style"
+        },
+        "gemma2-2b-greedy": {
+            "model_path": "google/gemma-2-2b-it",
+            "gen_config": "general_style_greedy"
+        },
+        "gemma2-9b": {
+            "model_path": "google/gemma-2-9b-it",
+            "gen_config": "general_style"
+        },
+        "gemma2-27b": {
+            "model_path": "google/gemma-2-27b-it",
+            "gen_config": "general_style"
+        },
+        "qwen2.5_7b": {
+            "model_path": "Qwen/Qwen2.5-7B-Instruct",
+            "gen_config": "qwen_style"
+        },
+        "qwen2.5_7b_greedy": {
+            "model_path": "Qwen/Qwen2.5-7B-Instruct",
+            "gen_config": "qwen_style_greedy"
+        },
+        "qwen2.5_32b": {
+            "model_path": "Qwen/Qwen2.5-32B-Instruct",
+            "gen_config": "qwen_style"
+        },
+        "deepseek-7b": {
+            "model_path": "deepseek-ai/deepseek-llm-7b-chat",
+            "gen_config": "deepseek_style"
+        },
+        "deepseek-67b": {
+            "model_path": "deepseek-ai/deepseek-llm-67b-chat",
+            "gen_config": "deepseek_style"
+        },
+        "gemma2-9b-deeper-safety": {
+            "model_path": "Unispac/Gemma-2-9B-IT-With-Deeper-Safety-Alignment",
+            "gen_config": "general_style"
+        },
+        "llama2-7b-deeper-safety": {
+            "model_path": "Unispac/Llama2-7B-Chat-Augmented",
+            "gen_config": "general_style"
+        },
+        "mistral7b-rr": {
+            "model_path": "GraySwanAI/Mistral-7B-Instruct-RR",
+            "gen_config": "general_style"
+        },
+        "llama3-rr": {
+            "model_path": "GraySwanAI/Llama-3-8B-Instruct-RR",
+            "gen_config": "general_style"
+        },
+        "tulu3_8b_sft": {
+            "model_path": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+            "gen_config": "tulu3_style"
+        },
+        "tulu3_8b_dpo": {
+            "model_path": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+            "gen_config": "tulu3_style"
+        },
+        "tulu3_8b_instruct": {
+            "model_path": "allenai/Llama-3.1-Tulu-3.1-8B",
+            "gen_config": "tulu3_style"
+        },
+        "tulu3_70b_instruct": {
+            "model_path": "allenai/Llama-3.1-Tulu-3-70B",
+            "gen_config": "tulu3_style"
+        },
+        "llama3.1-8b": {
+            "model_path": "meta-llama/Llama-3.1-8B-Instruct",
+            "gen_config": "llama_safety_style"
+        },
+        "llama3.1-8b-greedy": {
+            "model_path": "meta-llama/Llama-3.1-8B-Instruct",
+            "gen_config": "general_style_greedy"
+        },
+        "llama3.3-70b": {
+            "model_path": "meta-llama/Llama-3.3-70B-Instruct",
+            "gen_config": "llama_safety_style"
+        }
+    },
+    "gen_configs": {
+        "olmo_style": {"vllm": true, "system_prompt": "", "sampling_params": {"max_tokens": 300, "temperature": 0.6, "top_p": 0.95}},
+        "llama_style": {"vllm": true, "system_prompt": "", "sampling_params": {"max_tokens": 300, "temperature": 0.6, "top_p": 0.9}},
+        "llama_safety_style": {"vllm": true, "system_prompt": "You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature. If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don’t know the answer to a question, please don’t share false information.", "sampling_params": {"max_tokens": 300, "temperature": 0.6, "top_p": 0.9}},
+        "apertus_style": {"vllm": true, "system_prompt": "", "sampling_params": {"max_tokens": 300, "temperature": 0.8, "top_p": 0.9}},
+        "gemma3_style": {"vllm": true, "system_prompt": "You are a helpful assistant.", "sampling_params": {"max_tokens": 300, "top_k": 64, "top_p": 0.95}},
+        "general_style": {"vllm": true, "system_prompt": "", "sampling_params": {"max_tokens": 300, "top_k": 50, "top_p": 1.0, "temperature": 1.0, "repetition_penalty": 1.0}},
+        "general_style_greedy": {"vllm": true, "system_prompt": "", "sampling_params": {"max_tokens": 300, "temperature": 0.0, "repetition_penalty": 1.0}},
+        "qwen_style": {"vllm": true, "system_prompt": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.", "sampling_params": {"max_tokens": 300, "top_k": 20, "top_p": 0.8, "temperature": 0.7}},
+        "qwen_style_greedy": {"vllm": true, "system_prompt": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.", "sampling_params": {"max_tokens": 300, "temperature": 0.0, "repetition_penalty": 1.0}},
+        "deepseek_style": {"vllm": true, "system_prompt": "", "sampling_params": {"max_tokens": 300, "temperature": 0.7, "top_p": 0.95}},
+        "tulu3_style": {"vllm": true, "system_prompt": "You are Tulu 3, a helpful and harmless AI Assistant built by the Allen Institute for AI.", "sampling_params": {"max_tokens": 300, "temperature": 0.6, "top_p": 0.9}},
+        "gemma3_tiny_style": {"vllm": false, "system_prompt": "", "sampling_params": {"max_tokens": 300, "top_k": 50, "top_p": 1.0, "temperature": 1.0, "repetition_penalty": 1.0}}
+    }
+}
