@@ -1,6 +1,6 @@
 # Mood Matters: How Syntactic Sensitivity Undermines Safety Alignment
 
-[[Paper]](https://arxiv.org/abs/2608.05409)
+[[Paper]]([https://arxiv.org/abs/2608.05409](https://aclanthology.org/2026.emnlp-main.317/))
 
 > *Syntactic Vulnerability*: inability to reject harmful requests expressed differently than the default imperative form  
   
@@ -247,15 +247,26 @@ While our findings are intended to support auditing and the development of more 
 ## Citation 
 
 ```bibtex
-@misc{klerings2026moodmatterssyntacticsensitivity,
-      title={Mood Matters: How Syntactic Sensitivity Undermines Safety Alignment}, 
-      author={Alina Klerings and Jannik Brinkmann and Heiner Stuckenschmidt and Simone Paolo Ponzetto},
-      year={2026},
-      eprint={2608.05409},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2608.05409}, 
-} 
+@inproceedings{klerings-etal-2026-mood,
+    title = "Mood Matters: How Syntactic Sensitivity Undermines Safety Alignment",
+    author = "Klerings, Alina  and
+      Brinkmann, Jannik  and
+      Stuckenschmidt, Heiner  and
+      Ponzetto, Simone Paolo",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Junyi Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.317/",
+    doi = "10.18653/2026.emnlp-main.317",
+    pages = "7316--7336",
+    ISBN = "979-8-89176-459-0",
+}
 ```
 
 
