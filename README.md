@@ -1,6 +1,6 @@
 # Mood Matters: How Syntactic Sensitivity Undermines Safety Alignment
 
-[[Paper]]([https://arxiv.org/abs/2608.05409](https://aclanthology.org/2026.emnlp-main.317/))
+[Paper](https://aclanthology.org/2026.emnlp-main.317/)
 
 > *Syntactic Vulnerability*: inability to reject harmful requests expressed differently than the default imperative form  
   
